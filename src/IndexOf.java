@@ -1,9 +1,9 @@
 /*
- * Created by Tanushka Bandara on 10/15/18 10:46 PM
+ * Created by Tanushka Bandara on 10/15/18 11:06 PM
  * Copyright (c) 2018.  All Rights Reserved
  * https://tanu31195.github.io/
  *
- * Last Modified 10/15/18 10:46 PM
+ * Last Modified 10/15/18 10:53 PM
  */
 
 public class IndexOf {
@@ -13,11 +13,11 @@ public class IndexOf {
 
         String sent = "This is a random sentence";
 
-        System.out.println(sent.indexOf('s'));
-        System.out.println(sent.lastIndexOf('s'));
+        System.out.println(sent.indexOf('s')); //3
+        System.out.println(sent.lastIndexOf('s')); //17
 
-        System.out.println(sent.indexOf("is"));
-        System.out.println(sent.lastIndexOf("is"));
+        System.out.println(sent.indexOf("is")); //2
+        System.out.println(sent.lastIndexOf("is")); //5
 
         //extract word "random"
         System.out.println(sent.substring(sent.indexOf("random"), sent.indexOf("random") + 6));
