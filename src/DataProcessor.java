@@ -1,12 +1,17 @@
 /*
- * Created by Tanushka Bandara on 10/14/18 11:35 PM
+ * Created by Tanushka Bandara on 10/15/18 10:46 PM
  * Copyright (c) 2018.  All Rights Reserved
  * https://tanu31195.github.io/
  *
- * Last Modified 10/14/18 11:34 PM
+ * Last Modified 10/15/18 10:25 PM
  */
 
 import javax.swing.*;
+
+// Data input
+// Check age > 19
+// Data must be in caps and alphabetized by last name
+// Output initial of first name then last name and age
 
 public class DataProcessor {
     public static void main(String[] args) {
